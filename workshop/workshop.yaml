@@ -1,0 +1,8 @@
+name: TAP Demo Workshop
+modules:
+  activate:
+    - module-1
+    - workshop-overview
+    - setup-environment
+    - exercises/create-java-web-app
+    - workshop-summary

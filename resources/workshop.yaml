@@ -1,0 +1,20 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: Workshop
+metadata:
+  name: tap-workshop-create-java-web-app
+spec:
+  vendor: learningcenter.tanzu.vmware.com
+  title: "Example TAP Demo Workshop"
+  description: A sample workshop
+  url: https://github.com/JanKraut/tap-workshop-create-workload
+  content:
+    image: https://github.com/JanKraut/tap-workshop-create-workload:main
+  duration: 15m
+  session:
+    namespaces:
+      budget: small
+    applications:
+      console:
+        enabled: true
+      editor:
+        enabled: true

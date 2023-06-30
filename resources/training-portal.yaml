@@ -1,0 +1,13 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: TrainingPortal
+metadata:
+  name: tap-workshop-create-workload
+spec:
+  portal:
+    registration:
+      type: anonymous
+  workshops:
+  - name: tap-workshop-create-java-web-app
+    capacity: 1
+    expires: 15m
+    orphaned: 10m
