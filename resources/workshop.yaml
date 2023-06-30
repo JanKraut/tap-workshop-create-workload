@@ -14,7 +14,6 @@ spec:
     - Jan Kraut
   tags:
     - workload
-  difficulty: beginner
   duration: 15m
   session:
     namespaces:
