@@ -8,7 +8,7 @@ spec:
   description: "A sample workshop"
   url: https://github.com/jankraut/tap-workshop-create-workload
   content:
-    #image: https://github.com/JanKraut/tap-workshop-create-workload:main
+    image: https://github.com/JanKraut/tap-workshop-create-workload:main
     files: https://github.com/jankraut/tap-workshop-create-workload:main
   authors:
     - Jan Kraut
