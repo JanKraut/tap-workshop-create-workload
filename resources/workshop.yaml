@@ -8,7 +8,7 @@ spec:
   description: "A sample workshop"
   url: https://github.com/jankraut/tap-workshop-create-workload
   content:
-    image: https://github.com/jankraut/tap-workshop-create-workload:main
+    image: quay.io/eduk8s/base-environment:latest
     files: https://github.com/jankraut/tap-workshop-create-workload:main
   authors:
     - Jan Kraut
