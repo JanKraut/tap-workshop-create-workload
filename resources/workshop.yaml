@@ -9,7 +9,7 @@ spec:
   url: https://github.com/jankraut/tap-workshop-create-workload
   content:
     #image: quay.io/eduk8s/base-environment:latest
-    files: github.com/jankraut/tap-workshop-create-workload
+    files: github.com/jankraut/tap-workshop-create-workload/workshop/content
   authors:
     - Jan Kraut
   tags:
